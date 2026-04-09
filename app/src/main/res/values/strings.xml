@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">LibraryApp</string>
+    <string name="dashboard_title">Dashboard Perpustakaan</string>
+    <string name="total_buku">Total Buku: %1$d</string>
+    <string name="total_anggota">Total Anggota: %1$d</string>
+    <string name="sedang_dipinjam">Sedang Dipinjam: %1$d</string>
+    <string name="btn_refresh">Refresh Data</string>
+    <string name="status_log_init">Status Log...</string>
+</resources>

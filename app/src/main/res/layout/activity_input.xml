@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tambah Buku Baru"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etJudul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Judul Buku" />
+
+        <EditText
+            android:id="@+id/etPengarang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Pengarang" />
+
+        <EditText
+            android:id="@+id/etIsbn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ISBN" />
+
+        <EditText
+            android:id="@+id/etTahun"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tahun Terbit"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/etStok"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Jumlah Stok"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/btnSimpanBuku"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Simpan Buku" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="24dp"
+            android:background="#CCCCCC" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Registrasi Anggota Baru"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etNama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nama Lengkap" />
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/etNoHp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="No. HP"
+            android:inputType="phone" />
+
+        <Button
+            android:id="@+id/btnSimpanAnggota"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Registrasi Anggota" />
+
+    </LinearLayout>
+</ScrollView>
